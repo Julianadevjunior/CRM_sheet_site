@@ -23,7 +23,7 @@ with st.container(border=True):
     nome = st.text_input(label="Nome", placeholder="Digite o nome")
     telefone = st.text_input(label="Telefone", placeholder="Digite o Telefone")
     email = st.text_input(label="E-mail", placeholder="Digite o e-mail")
-    valor = st.text_input(label="Valor", placeholder="Digite o valor")
+    valor = st.number_input(label="Valor", placeholder="Digite o valor")
     quarto = st.radio(label="Quartos", options=[1, 2, 3, 4, 5], horizontal=True)
     bairro = st.selectbox(label="Bairro", options=bairro)
     visita = st.checkbox(label="Agendou visita", value=["sim", "não"])
